@@ -9,64 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235895e9-a2ff-4efb-9387-c040ff69f03d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/allclasses.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery-ui.overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jszip/dist/jszip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery/jszip/dist/jszip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/jszip.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/pako.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/member-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/package-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/jcore/regular/Calculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/jcore/regular/Decorator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/jcore/regular/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/jcore/regular/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/jcore/sample/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/jcore/sample/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/jcore/sample/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/type-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jcore/regular/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jcore/regular/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jcore/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-    </list>
+    <list default="true" id="235895e9-a2ff-4efb-9387-c040ff69f03d" name="Changes" comment="Commit for checking 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,6 +81,26 @@
       <option name="presentableId" value="Default" />
       <updated>1693322226807</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit for checking">
+      <created>1693494692727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693494692727</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit for checking 2">
+      <created>1693494715667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693494715667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit for checking" />
+    <MESSAGE value="Commit for checking 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for checking 2" />
   </component>
 </project>

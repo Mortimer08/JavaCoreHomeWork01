@@ -1,0 +1,37 @@
+mort@mort-HP-Laptop-15s-eq1xxx ~/GB Study Projects/JavaCore/seminar01/src/main $ sudo docker builder build --output type=local,dest=. .
+Sending build context to Docker daemon  1.127MB
+Step 1/8 : FROM bellsoft/liberica-openjdk-alpine:11.0.16.1-1 as BuildProject
+ ---> 46bb19f1ca9b
+Step 2/8 : WORKDIR /app
+ ---> Running in adde1a7e3210
+Removing intermediate container adde1a7e3210
+ ---> 5138aff47897
+Step 3/8 : COPY ./java ./src
+ ---> 6ffeca306e29
+Step 4/8 : RUN mkdir ./out
+ ---> Running in d93db4c9b0d4
+Removing intermediate container d93db4c9b0d4
+ ---> c5f9eb95504a
+Step 5/8 : RUN javac -sourcepath ./src -d ./out ./src/ru/gb/jcore/sample/Main.java
+ ---> Running in 865dccdd6cc9
+Removing intermediate container 865dccdd6cc9
+ ---> 05e94f60be1a
+Step 6/8 : CMD java -classpath ./out ru.gb.jcore.sample.Main
+ ---> Running in 5ea67fb6ca3f
+Removing intermediate container 5ea67fb6ca3f
+ ---> 06cf00cf65f2
+Step 7/8 : FROM scratch as OutputFiles
+ --->
+Step 8/8 : COPY --from=BuildProject /app/out /dockerout
+ ---> e385ba610d9c
+Successfully built e385ba610d9c
+mort@mort-HP-Laptop-15s-eq1xxx ~/GB Study Projects/JavaCore/seminar01/src/main (master)$ sudo docker images
+REPOSITORY                         TAG           IMAGE ID       CREATED          SIZE
+<none>                             <none>        06cf00cf65f2   27 seconds ago   125MB
+<none>                             <none>        e385ba610d9c   27 seconds ago   1.62kB
+javacalc                           latest        c1d42ddb4a70   23 hours ago     125MB
+bellsoft/liberica-openjdk-alpine   11.0.16.1-1   46bb19f1ca9b   12 months ago    125MB
+mort@mort-HP-Laptop-15s-eq1xxx ~/GB Study Projects/JavaCore/seminar01/src/main (master)$ sudo docker run 06cf00cf65f2
+Result of summing is 5
+Result of multiplication is 6
+mort@mort-HP-Laptop-15s-eq1xxx ~/GB Study Projects/JavaCore/seminar01/src/main (master)$
